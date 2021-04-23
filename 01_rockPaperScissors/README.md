@@ -14,6 +14,7 @@
 - `arr[i].length`는 3
 
 **입출력 예시**
+
 let output = rockPaperScissors();
 
 console.log(output);
@@ -28,7 +29,8 @@ console.log(output);
   */
 
   **Advanced**
-  - 가위바위보 게임의 수를 나타내는 양의 정수 rounds가 주어질 경우, 해당 rounds 동안 선택할 수 있는 모든 경우의 수를 리턴하도록 함수를 작성해 보시어.
+  
+  - 가위바위보 게임의 수를 나타내는 양의 정수 rounds가 주어질 경우, 해당 rounds 동안 선택할 수 있는 모든 경우의 수를 리턴하도록 함수를 작성해 보시오.
 
   let output = rockPaperScissors(5);
 
