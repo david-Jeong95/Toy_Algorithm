@@ -1,3 +1,4 @@
+'use strict'
 const swap = function (idx1, idx2, arr){
     [arr[idx1], arr[idx2]] = [arr[idx2], arr[idx1]];
 }
