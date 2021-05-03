@@ -1,0 +1,17 @@
+let dfs = function (node){
+    let values = [node.value];
+    node.children.forEach((n) => {
+        values = values.concat(n);
+    })
+    return values
+};
+
+let Node =function (value){
+    this.value = value;
+    this.children = [];
+}
+
+Node.prototype.addChild = function (child){
+    this.children.push(child);
+    return child;
+}
