@@ -1,7 +1,7 @@
 let dfs = function (node){
     let values = [node.value];
     node.children.forEach((n) => {
-        values = values.concat(n);
+        values = values.concat(dfs(n));
     })
     return values
 };
