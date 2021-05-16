@@ -1,5 +1,5 @@
 let dfs = function (node){
-    let values = [node.value];
+    let values = [node.value]; //자식노드의 첫번째를 먼저 찾아내는 dfs
     node.children.forEach((n) => {
         values = values.concat(dfs(n));
     })
